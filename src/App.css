@@ -1,38 +1,83 @@
-.App {
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  margin: 20px;
+  color: #333;
+  background-color: #f4f4f4;
+}
+
+h1 {
   text-align: center;
+  color: #ffffff; 
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  background-color: #3498db; 
+  padding: 10px;
+  border-radius: 8px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h2 {
+  color: #3498db;
+  margin-top: 20px;
+  font-size: 2em;
+  background-color: #eaf2f8; 
+  padding: 10px;
+  border-radius: 8px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+p {
+  line-height: 1.7;
+  margin-bottom: 20px;
+  background-color: #ffffff; 
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+img {
+  display: block;
+  margin: 20px auto;
+  border-radius: 8px;
+  border: 2px solid #ccc;
 }
 
-.App-link {
-  color: #61dafb;
+hr {
+  border: 1px solid #3498db; 
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff; 
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"], input[type="email"] {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1em;
+  background-color: #f9f9f9; 
+}
+
+input[type="text"]::placeholder, input[type="email"]::placeholder {
+  color: #bbb;
+}
+
+input[type="submit"] {
+  background-color: #3498db; 
+  color: #fff;
+  border: none;
+  padding: 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1.1em;
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #2980b9; 
 }
